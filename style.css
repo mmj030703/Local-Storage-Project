@@ -1,0 +1,59 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.student_form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.form .name input[type="text"] {
+    width: 100%;
+}
+
+.form .name input[type="text"],
+.form input  {
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    border: 2px solid rgb(0, 140, 255);
+    outline: none;
+}
+
+.form input[class="ageInput"] {
+    margin-right: 1rem;
+}
+
+.form .submit .submitBtn {
+    width: 100%;
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+    padding: .7rem 0;
+    cursor: pointer;
+}
+
+.form .name input[type="text"],
+.form input,
+.form .submit .submitBtn {
+    margin-bottom: 1rem;
+    border-radius: .4rem;
+}
+
+.students_container {
+    border: 2px solid #000;
+    margin: 0rem 3rem;
+    padding: 0 1rem;
+    border-radius: .4rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+.students_container div {
+    margin: 1rem 0rem;
+}
